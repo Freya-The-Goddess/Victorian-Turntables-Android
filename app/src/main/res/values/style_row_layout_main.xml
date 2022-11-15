@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+        name="rowParentLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/bg_rounded_rect</item>
+        <item name="android:padding">@dimen/rowPadding</item>
+        <item name="android:layout_marginStart">@dimen/rowHorizontalMargin</item>
+        <item name="android:layout_marginEnd">@dimen/rowHorizontalMargin</item>
+        <item name="android:layout_marginTop">@dimen/rowVerticalMargin</item>
+        <item name="android:layout_marginBottom">@dimen/rowVerticalMargin</item>
+    </style>
+
+    <style name="rowIcon">
+        <item name="android:layout_width">@dimen/rowIconSize</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/rowIconPadding</item>
+    </style>
+
+    <style
+        name="rowVerticalLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingStart">@dimen/rowPadding</item>
+        <item name="android:paddingEnd">@dimen/rowPadding</item>
+    </style>
+
+    <style
+        name="rowTextView"
+        parent="android:TextAppearance.DeviceDefault" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/mediumTextSize</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style
+        name="rowTurntableNameText"
+        parent="rowTextView" >
+        <item name="android:textSize">@dimen/largeTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style
+        name="rowTurntableLocationText"
+        parent="rowTextView" >
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style
+        name="rowTurntableLengthText"
+        parent="rowTextView" >
+        <item name="android:textSize">@dimen/extraLargeTextSize</item>
+        <item name="android:gravity">center_horizontal|top</item>
+    </style>
+
+    <style
+        name="rowTurntablePowerText"
+        parent="rowTextView" >
+        <item name="android:gravity">center</item>
+    </style>
+
+
+</resources>

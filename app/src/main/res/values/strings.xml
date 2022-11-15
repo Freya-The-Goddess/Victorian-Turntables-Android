@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Victorian Turntables</string>
+
+    <!-- Activity action bar titles -->
+    <string name="detailActivityTitle">Turntable Details</string>
+    <string name="editActivityTitle">Edit Turntable</string>
+    <string name="addActivityTitle">Add Turntable</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="iconContentDescription">Turntable icon</string>
+    <string name="mapContentDescription">Google map with pin at the turntable location</string>
+    <string name="spinnerContentDescription">Dropdown box</string>
+
+    <!-- Placeholder string to be replaced by turntable data dynamically -->
+    <string name="noData">[No Data]</string>
+    <string name="zero" translatable="false">0</string>
+
+    <!-- Units -->
+    <string name="unitFeet">feet</string>
+    <string name="unitMeter">meters</string>
+
+    <!-- Detail activity label strings-->
+    <string name="nameLabel">Name:</string>
+    <string name="locationLabel">Location:</string>
+    <string name="latLongLabel">Lat/Long:</string>
+    <string name="statusLabel">Status:</string>
+    <string name="gaugeLabel">Gauge(s):</string>
+    <string name="lengthLabel">Length:</string>
+    <string name="powerLabel">Power:</string>
+    <string name="notesLabel">Notes:</string>
+
+    <!-- Options menu item strings -->
+    <string name="optionAddNew">Add new turntable</string>
+    <string name="optionDeleteAll">Delete all turntables</string>
+    <string name="optionRefreshData">Reset to default turntable data</string>
+    <string name="optionEdit">Edit turntable data</string>
+    <string name="optionDelete">Delete turntable</string>
+
+    <!-- Confirmation alert dialog strings -->
+    <string name="confirmDeleteTitle">Are you sure you want to delete this turntable?</string>
+    <string name="confirmDeleteAllTitle">Are you sure you want to delete all turntables?</string>
+    <string name="confirmResetTitle">"Are you sure you want to reset turntable data to default?"</string>
+    <string name="confirmNoUndoMessage">Changes will be lost, this action can\'t be undone.</string>
+    <string name="confirmSaveTitle">Would you like to save new turntable?</string>
+    <string name="confirmSaveChangesTitle">Would you like to save changes?</string>
+    <string name="confirmSaveMessage">You can save or discard this new turntable, this can\'t be undone.</string>
+    <string name="confirmSaveChangesMessage">Changes have been made which you can save or discard, this can\'t be undone.</string>
+    <string name="confirmValidationErrorTitle">There are problems in the turntable data</string>
+    <string name="confirmValidationErrorMessage">You can fix these errors or discard changes and go back, this can\'t be undone.</string>
+    <string name="confirmCancelButton">Cancel</string>
+    <string name="confirmDeleteButton">Delete Turntable</string>
+    <string name="confirmDeleteAllButton">Delete All</string>
+    <string name="confirmResetButton">Reset Data</string>
+    <string name="confirmSaveButton">Save</string>
+    <string name="confirmDiscardButton">Discard</string>
+    <string name="confirmFixButton">Fix Problems</string>
+
+    <!-- Toast strings -->
+    <string name="toastSavedNew">Saved new turntable</string>
+    <string name="toastSavedChanges">Saved changes to</string>
+    <string name="toastDiscardedNew">Discarded new turntable</string>
+    <string name="toastDiscardedChanges">Discarded changes</string>
+
+    <!-- Status spinner strings -->
+    <string name="statusSelect">(Select status)</string>
+    <string name="statusInUse">In Use</string>
+    <string name="statusHeritageMainlineUse">Heritage Mainline Use</string>
+    <string name="statusHeritageLineUse">Heritage Line Use</string>
+    <string name="statusHeritageLineDisused">Heritage Line Disused</string>
+    <string name="statusDisused">Disused</string>
+    <string name="statusDisconnected">Disconnected</string>
+    <string name="statusIsolated">Isolated</string>
+    <string name="statusStored">Stored</string>
+
+    <!-- Gauge spinner strings -->
+    <string name="gaugeSelect">(Select gauges)</string>
+    <string name="gaugeNG610" translatable="false">NG 610mm (2\')</string>
+    <string name="gaugeNG762" translatable="false">NG 762mm (2\' 6\")</string>
+    <string name="gaugeNG1067" translatable="false">NG 1067mm (3\' 6\")</string>
+    <string name="gaugeSG1435" translatable="false">SG 1435mm (4\' 8.5\")</string>
+    <string name="gaugeBG1600" translatable="false">BG 1600mm (5\' 3\")</string>
+
+    <!-- Power spinner strings -->
+    <string name="powerSelect">(Select power)</string>
+    <string name="powerManual">Manual</string>
+    <string name="powerElectric">Electric</string>
+    <string name="powerPneumatic">Pneumatic</string>
+    <string name="powerPetrol">Petrol</string>
+    <string name="powerDiesel">Diesel</string>
+
+    <!-- Input validation error strings -->
+    <string name="validationNameBlank">Name can\'t be blank</string>
+    <string name="validationLatRange">Out of range -90 to 90</string>
+    <string name="validationLongRange">Out of range -180 to 180</string>
+</resources>

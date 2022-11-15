@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme colors -->
+    <color name="navyBlue">#FF18227C</color>
+    <color name="navyBlueLight">#FF514ACC</color>
+    <color name="navyBlueDark">#FF00004F</color>
+    <color name="goldYellow">#FFFFAB00</color>
+    <color name="goldYellowLight">#FFFFDD4B</color>
+    <color name="goldYellowDark">#FFC67C00</color>
+
+    <!-- Text and background colors-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textDay">#DD0E0E10</color>
+    <color name="textNight">#DDE0E0FF</color>
+    <color name="backgroundDay">#FFE0E0FF</color>
+    <color name="backgroundNight">#FF080818</color>
+    <color name="inputBackgroundDay">#FFC0C0CF</color>
+    <color name="inputBackgroundNight">#FF121216</color>
+
+    <!-- Alert dialog button colors -->
+    <color name="alertDialogPositiveButtonLight">#FF2255DD</color>
+    <color name="alertDialogPositiveButtonDark">#FF0015AA</color>
+    <color name="alertDialogNegativeButtonLight">#FFDD3333</color>
+    <color name="alertDialogNegativeButtonDark">#FFBB1515</color>
+    <color name="alertDialogNeutralButtonLight">#FF777777</color>
+    <color name="alertDialogNeutralButtonDark">#FF444444</color>
+
+    <!-- Status colors -->
+    <color name="statusInUseLight">#FF339977</color>
+    <color name="statusInUseDark">#FF1E5945</color>
+    <color name="statusHeritageMainlineUseLight">@color/statusInUseLight</color>
+    <color name="statusHeritageMainlineUseDark">@color/statusInUseDark</color>
+    <color name="statusHeritageLineUseLight">#FF55AA44</color>
+    <color name="statusHeritageLineUseDark">#FF336628</color>
+    <color name="statusDisusedLight">#FFAA9933</color>
+    <color name="statusDisusedDark">#FF726622</color>
+    <color name="statusHeritageLineDisusedLight">@color/statusDisusedLight</color>
+    <color name="statusHeritageLineDisusedDark">@color/statusDisusedDark</color>
+    <color name="statusDisconnectedLight">#FFB07044</color>
+    <color name="statusDisconnectedDark">#FF72482C</color>
+    <color name="statusIsolatedLight">#FFBB554A</color>
+    <color name="statusIsolatedDark">#FF72332D</color>
+    <color name="statusStoredLight">#FF7A7A7A</color>
+    <color name="statusStoredDark">#FF595959</color>
+</resources>

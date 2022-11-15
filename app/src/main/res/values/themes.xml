@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.VicTurntables" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/navyBlue</item>
+        <item name="colorPrimaryVariant">@color/navyBlueDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/goldYellow</item>
+        <item name="colorSecondaryVariant">@color/goldYellowDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Text color. -->
+        <item name="android:textColorPrimary">@color/textDay</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/backgroundDay</item>
+        <item name="inputBackgroundColor">@color/inputBackgroundDay</item>
+        <item name="itemBackgroundColor">@color/white</item>
+        <item name="spinnerDropdownBackgroundColor">@color/white</item>
+        <!-- Floating action button colors -->
+        <item name="fabColor">?attr/colorSecondary</item>
+        <item name="fabRippleColor">?attr/colorSecondaryVariant</item>
+        <item name="fabIconColor">@color/black</item>
+        <!-- Alert dialog themes-->
+        <item name="alertDialogPositiveButtonColor">@color/alertDialogPositiveButtonDark</item>
+        <item name="alertDialogNegativeButtonColor">@color/alertDialogNegativeButtonDark</item>
+        <item name="alertDialogNeutralButtonColor">@color/alertDialogNeutralButtonDark</item>
+        <item name="alertDialogTheme">@style/alertDialog</item>
+        <!-- Checkbox color -->
+        <item name="checkboxColor">?attr/colorPrimary</item>
+        <!-- Status colors for row icons -->
+        <item name="statusInUse">@color/statusInUseLight</item>
+        <item name="statusHeritageMainlineUse">@color/statusHeritageMainlineUseLight</item>
+        <item name="statusHeritageLineUse">@color/statusHeritageLineUseLight</item>
+        <item name="statusDisused">@color/statusDisusedLight</item>
+        <item name="statusHeritageLineDisused">@color/statusHeritageLineDisusedLight</item>
+        <item name="statusDisconnected">@color/statusDisconnectedLight</item>
+        <item name="statusIsolated">@color/statusIsolatedLight</item>
+        <item name="statusStored">@color/statusStoredLight</item>
+    </style>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="googleMapsStyleJson">
+    [
+        {
+            \"featureType\": \"landscape\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"on\"
+                },
+                {
+                    \"weight\": 1
+                }
+            ]
+        },
+        {
+            \"featureType\": \"poi\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"off\"
+                }
+            ]
+        },
+        {
+            \"featureType\": \"road\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"simplified\"
+                },
+                {
+                    \"weight\": 1
+                }
+            ]
+        },
+        {
+            \"featureType\": \"road\",
+            \"elementType\": \"labels\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"simplified\"
+                },
+                {
+                    \"weight\": 1
+                }
+            ]
+        },
+        {
+            \"featureType\": \"road.highway\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"on\"
+                }
+            ]
+        },
+        {
+            \"featureType\": \"transit\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"on\"
+                },
+                {
+                    \"weight\": 8
+                }
+            ]
+        },
+        {
+            \"featureType\": \"transit.line\",
+            \"stylers\": [
+                {
+                    \"weight\": 2
+                }
+            ]
+        },
+        {
+            \"featureType\": \"transit.station.airport\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"off\"
+                }
+            ]
+        },
+        {
+            \"featureType\": \"transit.station.bus\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"simplified\"
+                },
+                {
+                    \"weight\": 1
+                }
+            ]
+        },
+        {
+            \"featureType\": \"transit.station.rail\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"on\"
+                },
+                {
+                    \"weight\": 8
+                }
+            ]
+        },
+        {
+            \"featureType\": \"water\",
+            \"stylers\": [
+                {
+                    \"visibility\": \"simplified\"
+                }
+            ]
+        }
+    ]
+    </string>
+</resources>

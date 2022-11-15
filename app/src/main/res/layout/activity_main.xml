@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainTurntableList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddNew"
+        style="@style/floatingActionButton"
+        android:contentDescription="@string/optionAddNew"
+        app:rippleColor="?attr/fabRippleColor"
+        app:tint="?attr/fabIconColor"
+        app:srcCompat="@drawable/option_icon_add" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

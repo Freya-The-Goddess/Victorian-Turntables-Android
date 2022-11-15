@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Status spinner string array -->
+    <string-array name="spinnerStatusArray">
+        <item name="statusSelect">@string/statusSelect</item>
+        <item name="statusInUse">@string/statusInUse</item>
+        <item name="statusHeritageMainlineUse">@string/statusHeritageMainlineUse</item>
+        <item name="statusHeritageLineUse">@string/statusHeritageLineUse</item>
+        <item name="statusHeritageLineDisused">@string/statusHeritageLineDisused</item>
+        <item name="statusDisused">@string/statusDisused</item>
+        <item name="statusDisconnected">@string/statusDisconnected</item>
+        <item name="statusIsolated">@string/statusIsolated</item>
+        <item name="statusStored">@string/statusStored</item>
+    </string-array>
+
+    <!-- Gauge spinner string array -->
+    <string-array name="spinnerGaugeArray">
+        <item name="gaugeSelect">@string/gaugeSelect</item>
+        <item name="gaugeNG610">@string/gaugeNG610</item>
+        <item name="gaugeNG762">@string/gaugeNG762</item>
+        <item name="gaugeNG1067">@string/gaugeNG1067</item>
+        <item name="gaugeSG1435">@string/gaugeSG1435</item>
+        <item name="gaugeBG1600">@string/gaugeBG1600</item>
+    </string-array>
+
+    <!-- Power spinner string array -->
+    <string-array name="spinnerPowerArray">
+        <item name="powerSelect">@string/powerSelect</item>
+        <item name="powerManual">@string/powerManual</item>
+        <item name="powerElectric">@string/powerElectric</item>
+        <item name="powerPneumatic">@string/powerPneumatic</item>
+        <item name="powerPetrol">@string/powerPetrol</item>
+        <item name="powerDiesel">@string/powerDiesel</item>
+    </string-array>
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/editParentLayout"
+    tools:context=".EditDetailActivity" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/editNameRow"
+                style="@style/editTableRow" >
+
+                <TextView
+                    android:id="@+id/editNameLabel"
+                    style="@style/editLabelText"
+                    android:text="@string/nameLabel" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/editNameInputLayout"
+                    style="@style/editInputLayout" >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editNameInputText"
+                        style="@style/editInputText"
+                        android:text="@string/noData"
+                        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/editLocationRow"
+                style="@style/editTableRow" >
+
+                <TextView
+                    android:id="@+id/editLocationLabel"
+                    style="@style/editLabelText"
+                    android:text="@string/locationLabel" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/editLocationInputLayout"
+                    style="@style/editInputLayout" >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editLocationInputText"
+                        style="@style/editInputText"
+                        android:text="@string/noData"
+                        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/editLatLongRow"
+                style="@style/editTableRow" >
+
+                <TextView
+                    android:id="@+id/editLatLongLabel"
+                    style="@style/editLabelText"
+                    android:text="@string/latLongLabel" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/editLatitudeInputLayout"
+                        style="@style/editHalfInputLayout"
+                        android:layout_marginEnd="@dimen/halfPadding" >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editLatitudeInputText"
+                            style="@style/editLatLongInputText"
+                            android:text="@string/noData"
+                            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/editLongitudeInputLayout"
+                        style="@style/editHalfInputLayout"
+                        android:layout_marginStart="@dimen/halfPadding" >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editLongitudeInputText"
+                            style="@style/editLatLongInputText"
+                            android:text="@string/noData"
+                            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/editStatusRow"
+                style="@style/editTableRow" >
+
+                <TextView
+                    android:id="@+id/editStatusLabel"
+                    style="@style/editLabelText"
+                    android:text="@string/statusLabel" />
+
+                <Spinner
+                    android:id="@+id/editStatusDropdown"
+                    style="@style/editDropdown"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/editGaugeRow"
+                style="@style/editTableRow" >
+
+                <TextView
+                    android:id="@+id/editGaugeLabel"
+                    style="@style/editLabelText"
+                    android:text="@string/gaugeLabel" />
+
+                <Spinner
+                    android:id="@+id/editGaugeDropdown"
+                    style="@style/editDropdown" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/editLengthRow"
+                style="@style/editTableRow" >
+
+                <TextView
+                    android:id="@+id/editLengthLabel"
+                    style="@style/editLabelText"
+                    android:text="@string/lengthLabel" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/editLengthInputLayout"
+                        style="@style/editHalfInputLayout"
+                        android:layout_marginEnd="@dimen/halfPadding" >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editLengthInputText"
+                            style="@style/editLengthInputText"
+                            android:text="@string/noData"
+                            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/editLengthMeterView"
+                        style="@style/editLengthMeterView"
+                        android:layout_marginStart="@dimen/halfPadding"
+                        android:text="@string/unitFeet" />
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/editPowerRow"
+                style="@style/editTableRow" >
+
+                <TextView
+                    android:id="@+id/editPowerLabel"
+                    style="@style/editLabelText"
+                    android:text="@string/powerLabel" />
+
+                <Spinner
+                    android:id="@+id/editPowerDropdown"
+                    style="@style/editDropdown" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/editNotesRow"
+                style="@style/editTableRow" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_span="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/editNotesLabel"
+                        style="@style/editNotesLabelText"
+                        android:text="@string/notesLabel" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/editNotesInputLayout"
+                        style="@style/editNotesInputLayout" >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editNotesInputText"
+                            style="@style/editNotesInputText"
+                            android:text="@string/noData"
+                            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+</ScrollView>

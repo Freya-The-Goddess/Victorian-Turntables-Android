@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/bg_dropdown.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/ic_turntable.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/ic_turntable_background.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/ic_turntable_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/ic_turntable_launcher_monochrome.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/option_icon_add.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/option_icon_delete.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/option_icon_edit.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/option_icon_refresh.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/option_icon_save.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/drawable/options_icon_delete.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/layout-land/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/layout/activity_edit_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/layout/row_layout_main.xml" value="0.25" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/menu/options_menu_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/menu/options_menu_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/mipmap-anydpi-v26/ic_turntable_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Inspiron3541/Android-Studio/Custom-App-FreyaCR/app/src/main/res/mipmap-anydpi-v26/ic_turntable_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

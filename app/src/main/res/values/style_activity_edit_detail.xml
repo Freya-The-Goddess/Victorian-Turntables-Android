@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style
+        name="editParentLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/editBgMargin</item>
+        <item name="android:padding">@dimen/editBgPadding</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:background">@drawable/bg_rounded_rect</item>
+    </style>
+
+    <style
+        name="editTableRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">5</item>
+        <item name="android:paddingTop">@dimen/editRowVerticalPadding</item>
+        <item name="android:paddingBottom">@dimen/editRowVerticalPadding</item>
+        <item name="android:paddingStart">@dimen/editRowHorizontalPadding</item>
+        <item name="android:paddingEnd">@dimen/editRowHorizontalPadding</item>
+    </style>
+
+    <style
+        name="editTextView"
+        parent="android:TextAppearance.DeviceDefault" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/mediumTextSize</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style
+        name="editLabelText"
+        parent="editTextView" >
+        <item name="android:layout_height">@dimen/editInputHeight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingEnd">@dimen/editRowTextHorizontalPadding</item>
+    </style>
+
+    <style
+        name="editInputLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style
+        name="editInputText" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/editInputHeight</item>
+        <item name="android:backgroundTint">?attr/inputBackgroundColor</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/mediumTextSize</item>
+        <item name="android:paddingStart">@dimen/editInputPadding</item>
+        <item name="android:paddingEnd">@dimen/editInputPadding</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style
+        name="editHalfInputLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style
+        name="editLatLongInputText"
+        parent="editInputText" >
+        <item name="android:inputType">numberDecimal|numberSigned</item>
+    </style>
+
+    <style
+        name="editLengthInputText"
+        parent="editInputText" >
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style
+        name="editLengthMeterView"
+        parent="android:TextAppearance.DeviceDefault" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/mediumTextSize</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style
+        name="editNotesLabelText"
+        parent="editTextView" >
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">@dimen/doublePadding</item>
+    </style>
+
+    <style
+        name="editNotesInputLayout" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style
+        name="editNotesInputText"
+        parent="editInputText" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:gravity">left|top</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:paddingTop">@dimen/normalPadding</item>
+        <item name="android:paddingBottom">@dimen/editInputPadding</item>
+    </style>
+
+    <style
+        name="editDropdown"
+        parent="spinnerView" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/editInputHeight</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:popupBackground">?attr/spinnerDropdownBackgroundColor</item>
+        <item name="android:contentDescription">@string/spinnerContentDescription</item>
+    </style>
+</resources>

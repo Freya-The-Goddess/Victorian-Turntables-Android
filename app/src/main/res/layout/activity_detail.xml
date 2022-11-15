@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        style="@style/detailOrientation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/detailMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/detailMapMargin"
+            android:layout_weight="1"
+            android:contentDescription="@string/mapContentDescription"
+            tools:ignore="InefficientWeight" />
+
+        <ScrollView
+            style="@style/detailScrollLayout" >
+
+            <TableLayout
+                style="@style/detailTableLayout">
+
+                <TableRow
+                    android:id="@+id/detailNameRow"
+                    style="@style/detailTableRow" >
+
+                    <TextView
+                        android:id="@+id/detailNameLabel"
+                        style="@style/detailLabelText"
+                        android:text="@string/nameLabel" />
+
+                    <TextView
+                        android:id="@+id/detailNameData"
+                        style="@style/detailDataText"
+                        android:text="@string/noData" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/detailLocationRow"
+                    style="@style/detailTableRow" >
+
+                    <TextView
+                        android:id="@+id/detailLocationLabel"
+                        style="@style/detailLabelText"
+                        android:text="@string/locationLabel" />
+
+                    <TextView
+                        android:id="@+id/detailLocationData"
+                        style="@style/detailDataText"
+                        android:text="@string/noData" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/detailStatusRow"
+                    style="@style/detailTableRow" >
+
+                    <TextView
+                        android:id="@+id/detailStatusLabel"
+                        style="@style/detailLabelText"
+                        android:text="@string/statusLabel" />
+
+                    <TextView
+                        android:id="@+id/detailStatusData"
+                        style="@style/detailDataText"
+                        android:text="@string/noData" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/detailGaugeRow"
+                    style="@style/detailTableRow" >
+
+                    <TextView
+                        android:id="@+id/detailGaugeLabel"
+                        style="@style/detailLabelText"
+                        android:text="@string/gaugeLabel" />
+
+                    <TextView
+                        android:id="@+id/detailGaugeData"
+                        style="@style/detailDataText"
+                        android:text="@string/noData" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/detailLengthRow"
+                    style="@style/detailTableRow" >
+
+                    <TextView
+                        android:id="@+id/detailLengthLabel"
+                        style="@style/detailLabelText"
+                        android:text="@string/lengthLabel" />
+
+                    <TextView
+                        android:id="@+id/detailLengthData"
+                        style="@style/detailDataText"
+                        android:text="@string/noData" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/detailPowerRow"
+                    style="@style/detailTableRow" >
+
+                    <TextView
+                        android:id="@+id/detailPowerLabel"
+                        style="@style/detailLabelText"
+                        android:text="@string/powerLabel" />
+
+                    <TextView
+                        android:id="@+id/detailPowerData"
+                        style="@style/detailDataText"
+                        android:text="@string/noData" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/detailNotesRow"
+                    style="@style/detailTableRow" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_span="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/detailNotesLabel"
+                            style="@style/detailNotesLabelText"
+                            android:text="@string/notesLabel" />
+
+                        <TextView
+                            android:id="@+id/detailNotesData"
+                            style="@style/detailNotesDataText"
+                            android:text="@string/noData" />
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEdit"
+        style="@style/floatingActionButton"
+        android:contentDescription="@string/optionEdit"
+        app:rippleColor="?attr/fabRippleColor"
+        app:tint="?attr/fabIconColor"
+        app:srcCompat="@drawable/option_icon_edit" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

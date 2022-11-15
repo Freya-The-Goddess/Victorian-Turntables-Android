@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background color attributes -->
+    <attr name="inputBackgroundColor" format="reference|color"/>
+    <attr name="itemBackgroundColor" format="reference|color"/>
+    <attr name="spinnerDropdownBackgroundColor" format="reference|color"/>
+
+    <!-- Floating action button color attributes -->
+    <attr name="fabColor" format="reference|color"/>
+    <attr name="fabRippleColor" format="reference|color"/>
+    <attr name="fabIconColor" format="reference|color"/>
+
+    <!-- Alert dialog color attributes -->
+    <attr name="alertDialogPositiveButtonColor" format="reference|color"/>
+    <attr name="alertDialogNegativeButtonColor" format="reference|color"/>
+    <attr name="alertDialogNeutralButtonColor" format="reference|color"/>
+
+    <!-- Checkbox color attribute -->
+    <attr name="checkboxColor" format="reference|color"/>
+
+    <!-- Status color attributes -->
+    <attr name="statusInUse" format="reference|color"/>
+    <attr name="statusHeritageMainlineUse" format="reference|color"/>
+    <attr name="statusHeritageLineUse" format="reference|color"/>
+    <attr name="statusDisused" format="reference|color"/>
+    <attr name="statusHeritageLineDisused" format="reference|color"/>
+    <attr name="statusDisconnected" format="reference|color"/>
+    <attr name="statusIsolated" format="reference|color"/>
+    <attr name="statusStored" format="reference|color"/>
+</resources>

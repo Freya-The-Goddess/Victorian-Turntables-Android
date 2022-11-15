@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="detailScrollLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+    </style>
+
+    <style name="detailTableLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/detailBgMargin</item>
+        <item name="android:layout_marginEnd">@dimen/detailBgMargin</item>
+        <item name="android:padding">@dimen/detailBgPadding</item>
+        <item name="android:background">@drawable/bg_rounded_rect</item>
+    </style>
+
+    <style
+        name="detailTableRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/detailRowVerticalPadding</item>
+        <item name="android:paddingBottom">@dimen/detailRowVerticalPadding</item>
+        <item name="android:paddingStart">@dimen/detailRowHorizontalPadding</item>
+        <item name="android:paddingEnd">@dimen/detailRowHorizontalPadding</item>
+    </style>
+
+    <style
+        name="detailTextView"
+        parent="android:TextAppearance.DeviceDefault" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/mediumTextSize</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style
+        name="detailLabelText"
+        parent="detailTextView" >
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingEnd">@dimen/detailRowTextHorizontalPadding</item>
+    </style>
+
+    <style
+        name="detailDataText"
+        parent="detailTextView" >
+        <item name="android:layout_weight">4</item>
+        <item name="android:paddingStart">@dimen/detailRowTextHorizontalPadding</item>
+    </style>
+
+    <style
+        name="detailNotesLabelText"
+        parent="detailTextView" >
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingBottom">@dimen/detailRowVerticalPadding</item>
+    </style>
+
+    <style
+        name="detailNotesDataText"
+        parent="detailTextView" >
+        <item name="android:layout_weight">1</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text size dimensions -->
+    <dimen name="bodyTextSize">14sp</dimen>
+    <dimen name="mediumTextSize">16sp</dimen>
+    <dimen name="largeTextSize">20sp</dimen>
+    <dimen name="extraLargeTextSize">36sp</dimen>
+
+    <!-- App padding dimensions -->
+    <dimen name="normalPadding">10dp</dimen>
+    <dimen name="halfPadding">5dp</dimen>
+    <dimen name="doublePadding">20dp</dimen>
+
+    <!-- Main activity row padding -->
+    <dimen name="rowPadding">@dimen/halfPadding</dimen>
+    <dimen name="rowHorizontalMargin">@dimen/normalPadding</dimen>
+    <dimen name="rowVerticalMargin">@dimen/halfPadding</dimen>
+    <dimen name="rowIconPadding">@dimen/halfPadding</dimen>
+    <dimen name="rowIconSize">64dp</dimen>
+
+    <!-- Detail activity row padding -->
+    <dimen name="detailMapMargin">@dimen/normalPadding</dimen>
+    <dimen name="detailBgPadding">@dimen/halfPadding</dimen>
+    <dimen name="detailBgMargin">@dimen/normalPadding</dimen>
+    <dimen name="detailRowHorizontalPadding">@dimen/normalPadding</dimen>
+    <dimen name="detailRowTextHorizontalPadding">@dimen/halfPadding</dimen>
+    <dimen name="detailRowVerticalPadding">@dimen/normalPadding</dimen>
+
+    <!-- Edit detail activity row padding -->
+    <dimen name="editBgPadding">@dimen/halfPadding</dimen>
+    <dimen name="editBgMargin">@dimen/normalPadding</dimen>
+    <dimen name="editRowHorizontalPadding">@dimen/normalPadding</dimen>
+    <dimen name="editRowTextHorizontalPadding">@dimen/halfPadding</dimen>
+    <dimen name="editRowVerticalPadding">@dimen/normalPadding</dimen>
+    <dimen name="editInputHeight">50dp</dimen>
+    <dimen name="editInputPadding">@dimen/halfPadding</dimen>
+
+    <!-- Rounded rectangle background corner radius-->
+    <dimen name="roundedRectCorner">20dp</dimen>
+</resources>

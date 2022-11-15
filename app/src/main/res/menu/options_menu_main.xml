@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/optionMainAddNew"
+        android:icon="@drawable/option_icon_add"
+        android:title="@string/optionAddNew"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/optionMainDeleteAll"
+        android:icon="@drawable/option_icon_delete"
+        android:title="@string/optionDeleteAll"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/optionMainRefreshData"
+        android:icon="@drawable/option_icon_refresh"
+        android:title="@string/optionRefreshData"
+        app:showAsAction="never" />
+</menu>

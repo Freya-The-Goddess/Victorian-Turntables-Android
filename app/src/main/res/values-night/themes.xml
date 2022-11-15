@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.VicTurntables" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/navyBlue</item>
+        <item name="colorPrimaryVariant">@color/navyBlueDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/goldYellow</item>
+        <item name="colorSecondaryVariant">@color/goldYellowDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Text color. -->
+        <item name="android:textColorPrimary">@color/textNight</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/backgroundNight</item>
+        <item name="inputBackgroundColor">@color/inputBackgroundNight</item>
+        <item name="itemBackgroundColor">@color/black</item>
+        <item name="spinnerDropdownBackgroundColor">@color/black</item>
+        <!-- Floating action button colors -->
+        <item name="fabColor">?attr/colorSecondaryVariant</item>
+        <item name="fabRippleColor">?attr/colorSecondary</item>
+        <item name="fabIconColor">@color/white</item>
+        <!-- Alert dialog themes-->
+        <item name="alertDialogPositiveButtonColor">@color/alertDialogPositiveButtonLight</item>
+        <item name="alertDialogNegativeButtonColor">@color/alertDialogNegativeButtonLight</item>
+        <item name="alertDialogNeutralButtonColor">@color/alertDialogNeutralButtonLight</item>
+        <item name="alertDialogTheme">@style/alertDialog</item>
+        <!-- Checkbox color -->
+        <item name="checkboxColor">?attr/colorSecondary</item>
+        <!-- Status colors for row icons -->
+        <item name="statusInUse">@color/statusInUseDark</item>
+        <item name="statusHeritageMainlineUse">@color/statusHeritageMainlineUseDark</item>
+        <item name="statusHeritageLineUse">@color/statusHeritageLineUseDark</item>
+        <item name="statusDisused">@color/statusDisusedDark</item>
+        <item name="statusHeritageLineDisused">@color/statusHeritageLineDisusedDark</item>
+        <item name="statusDisconnected">@color/statusDisconnectedDark</item>
+        <item name="statusIsolated">@color/statusIsolatedDark</item>
+        <item name="statusStored">@color/statusStoredDark</item>
+    </style>
+</resources>
