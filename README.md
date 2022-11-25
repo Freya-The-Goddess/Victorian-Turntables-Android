@@ -10,7 +10,7 @@ My custom app project is a create, read, update, delete (CRUD) app for storing a
 I already had an existing dataset in the form of a .csv file with a list of surviving turntables and related metadata like location, status, rail gauge turntable length, etc.
 
 ## Links
-[App Design & Development Report](https://docs.google.com/document/d/1PXAGwHWzJsfavbByvOkxXMZ5sWidsCDioXy7Awl5eVM) <br/>
+[App Design & Development Report](.docs/Victorian-Turntables.pdf) <br/>
 [App Video](https://youtu.be/wZ-Eif2Bs_k) <br/><br/>
 [<img src=".docs/Video-Thumbnail.png"  alt="App Video" width=50% />](https://youtu.be/wZ-Eif2Bs_k) <br/>
 
