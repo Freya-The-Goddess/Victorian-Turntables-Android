@@ -48,3 +48,6 @@ You will need to modify the generated `local.properties` file to add your API ke
 ```
 MAPS_API_KEY=AIz...`
 ```
+
+<br/>***Copyright © - 2022 Freya-The-Goddess***<br/>
+*This software is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).*
